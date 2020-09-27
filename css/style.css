@@ -46,6 +46,10 @@ nav a:hover{
     padding: 1em;
 }
 
+.card img{
+    height: 20em;
+}
+
 .carousel {
     border-radius: 50%;
     border-bottom-right-radius: 50%;
