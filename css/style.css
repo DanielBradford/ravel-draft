@@ -2,7 +2,7 @@
 
 .heartwool {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   background: url(/images/brownwool.jpg) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -109,14 +109,14 @@ h1{
 
 h1{
     color: rgb(104, 30, 165);
-    background-color: rgba(245, 245, 245, 0.644);
+    background-color: rgba(245, 245, 245, 0.767);
 
 }
 
 h2{
     color: rgb(192, 142, 99);
     font-family: 'Bad Script', sans-serif;
-    background-color: rgba(245, 245, 245, 0.644);
+    background-color: rgba(245, 245, 245, 0.767);
 }
 
 #contact-page form i{
@@ -130,6 +130,9 @@ h2{
     
 }
 
+#contact-page p{
+    color: rgba(192, 142, 99, 0.781);
+}
 
 .contact-details{
     font-size: 2em;
@@ -152,6 +155,12 @@ h2{
 h3 {
     font-family: 'Bad Script', sans-serif;
     color: rgb(58, 187, 226);
+    line-height: 1.5em;
+}
+
+.light{
+    color: rgb(37, 121, 146);
+    font-size: 1.2em;
 }
 
 .navbar a{
@@ -209,4 +218,9 @@ button{
 
 .fixed-action-btn i{
     color: white;
+}
+
+#send-btn i{
+    color: white;
+
 }
