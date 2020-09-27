@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Open+Sans:wght@300&display=swap');
+
+.heartwool {
+  width: 100vw;
+  height: 100vh;
+  background: url(/images/brownwool.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-bottom-right-radius: 50%;
+}
+
+.contact{
+    width: 50vw;
+  height: 100vh;
+  background: url(/images/pile.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+
+}
+
+#knit{
+    height: 50vh;
+    opacity: .5;
+    margin: 20%;
+}
+
+.fixed-action-btn:hover,
+nav a:hover{
+    color: #b2ebf2;
+}
+
+.welcome{
+    padding: 1em;
+}
+
+.carousel {
+    border-radius: 1.6em;
+    background-color: rgba(255, 255, 255, 0.562);
+    width: 80vw;
+}
+
+.carousel img{
+    width: 200px;
+    height: 200px;
+    border-radius: 1.4em;
+}
+
+nav,
+h1{
+    font-family: 'Bad Script',sans-serif;
+}
+
+h1{
+    color: rgb(104, 30, 165);
+    background-color: rgba(245, 245, 245, 0.644);
+
+}
+
+h2{
+    color: rgb(228, 186, 150);
+    font-family: 'Bad Script', sans-serif;
+    background-color: rgba(245, 245, 245, 0.644);
+}
+
+#contact-page i{
+    color: rgb(228, 186, 150);
+}
+
+#contact-page h2{
+    color: rgb(58, 187, 226);
+    
+}
+
+.contact-details{
+    font-size: 2em;
+}
+
+.contact-content{
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(58, 187, 226);
+}
+
+navbar a{
+    font-size: 30px;;
+}
+
+footer{
+    background-color: rgb(228, 186, 150);
+}
+
+footer i{
+    margin-left: 1em;
+    font-size: 40px;
+    margin: 10px;
+    color: white;
+}
