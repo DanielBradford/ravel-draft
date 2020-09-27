@@ -47,17 +47,23 @@ nav a:hover{
 }
 
 .carousel {
-    border-radius: 1.6em;
-    background-color: rgba(255, 255, 255, 0.562);
+    border-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.295);
     width: 80vw;
 }
 
 .carousel img{
     width: 200px;
     height: 200px;
-    border-radius: 1.4em;
+    border-radius: 50%;
 }
 
+.carousel p{
+    font-family: 'Bad Script',sans-serif;
+    font-size: 1.2em;
+    color: rgba(128, 0, 128, 0.644);
+}
 nav,
 h1{
     font-family: 'Bad Script',sans-serif;
@@ -97,10 +103,14 @@ h3 {
     color: rgb(58, 187, 226);
 }
 
-navbar a{
-    font-size: 30px;;
+.navbar a{
+    margin: .2em;
+    font-size: 25px;;
 }
 
+.sidenav a{
+    color: rgb(58, 187, 226);
+}
 footer{
     background-color: rgb(228, 186, 150);
 }
