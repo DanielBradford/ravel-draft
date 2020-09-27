@@ -13,10 +13,11 @@
   justify-content: center;
   position: relative;
   border-bottom-right-radius: 50%;
+  box-shadow: 1px 1px #9575cd;
 }
 
 .contact{
-    width: 50vw;
+    width: 40vw;
   height: 100vh;
   background: url(/images/pile.jpg) no-repeat bottom right fixed;
   -webkit-background-size: cover;
@@ -60,11 +61,21 @@ nav a:hover{
 
 .card img{
     height: 20em;
+    
+}
+
+.card-image{
+    border-top-right-radius: 1.8em;
+    border-top-left-radius: 1.8em;
 }
 
 .card{
     
     border-radius:1.8em;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 2px #9575cd;
 }
 
 .card-title{
@@ -110,6 +121,7 @@ h1{
 h1{
     color: rgb(104, 30, 165);
     background-color: rgba(245, 245, 245, 0.767);
+    text-shadow: 1px 1px rgb(192, 142, 99);
 
 }
 
@@ -120,10 +132,13 @@ h2{
 }
 
 #contact-page form i{
-    color: rgb(192, 142, 99);
+    color: whitesmoke;
+    text-shadow: 2px 2px rgb(192, 142, 99);
 }
 
-
+form{
+    padding: 2em;
+}
 
 #contact-page h2{
     color: rgb(58, 187, 226);
@@ -131,11 +146,11 @@ h2{
 }
 
 #contact-page p{
-    color: rgba(192, 142, 99, 0.781);
+    color: rgba(192, 142, 99, 0.664);
 }
 
 .contact-details{
-    font-size: 2em;
+    font-size: 1.4em;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -163,6 +178,9 @@ h3 {
     font-size: 1.2em;
 }
 
+#peek{
+    position: fixed;
+}
 .navbar a{
     margin: .2em;
     font-size: 25px;;
@@ -170,9 +188,6 @@ h3 {
 
 .sidenav a{
     color: rgb(58, 187, 226);
-}
-footer{
-    background-color: rgb(228, 186, 150);
 }
 
 footer i{
@@ -198,7 +213,8 @@ footer i{
   align-items: center;
   justify-content: center;
   position: relative;
-  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  box-shadow: 1px 1px #9575cd;
 }
 
 button{
@@ -220,7 +236,7 @@ button{
     color: white;
 }
 
-#send-btn i{
+#send-btn{
     color: white;
 
 }

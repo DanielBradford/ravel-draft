@@ -4,6 +4,11 @@ $(document).ready(function () {
   $(".sidenav").sidenav();
   $(".modal").modal();
 
+  $("#peek").click(function(){
+    $(".carousel").show("slow");
+
+  })
+
 });
 
 
