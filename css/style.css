@@ -36,6 +36,7 @@
     opacity: .8;
     z-index: 400;
     margin: 20%;
+    border-radius: 50%;
 }
 #knit{
     opacity: .07;

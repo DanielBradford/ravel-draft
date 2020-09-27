@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 	<title>Ravel</title>
 </head>
 
@@ -86,13 +87,13 @@
 						<div class="row">
 							<div class="input-field col s6">
 								<i class="prefix fas fa-pencil"></i>
-								<input id="first_name" type="text" class="validate">
-								<label for="first_name">First Name</label>
+								<input id="fname" type="text" class="validate">
+								<label for="fname">First Name</label>
 							</div>
 							<div class="input-field col s6">
 								<i class="fas fa-signature prefix"></i>
-								<input id="last_name" type="text" class="validate">
-								<label for="last_name">Last Name</label>
+								<input id="lname" type="text" class="validate">
+								<label for="lname">Last Name</label>
 							</div>
 						</div>
 						<div class="row">
@@ -105,12 +106,12 @@
 						<div class="row">
 							<div class="input-field col s12 center">
 								<i class="prefix fas fa-info"></i>
-								<textarea id="textarea2" class="materialize-textarea" rows="5" data-length="120"></textarea>
-								<label class="center" for="textarea2">Tell me what you would like... Color, Size etc.</label>
+								<textarea id="enquiry" class="materialize-textarea" rows="5" data-length="120"></textarea>
+								<label class="center" for="enquiry">Tell me what you would like... Color, Size etc.</label>
 							</div>
 						</div>
 						<div class="row center">
-							<button class="btn-medium btn #4dd0e1 cyan lighten-2" type="submit">Send <i class="fas fa-paper-plane"></i> </button>
+							<button id="send-btn" class="btn-medium btn #4dd0e1 cyan lighten-2">Send <i class="fas fa-paper-plane"></i> </button>
 						</div>
 					</form>
 				</div>
