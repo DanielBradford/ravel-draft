@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Lobster&family=Open+Sans:wght@300&display=swap');
 
 .heartwool {
   width: 100vw;
@@ -50,6 +50,18 @@ nav a:hover{
     height: 20em;
 }
 
+.card{
+    
+    border-radius:1.8em;
+}
+
+.card-title{
+    font-family: 'Bad Script', sans-serif;
+}
+
+.card-reveal{
+    border-radius: 1.4em;
+}
 .carousel {
     border-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -64,13 +76,13 @@ nav a:hover{
 }
 
 .carousel p{
-    font-family: 'Bad Script',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 1.2em;
     color: rgba(128, 0, 128, 0.644);
 }
 nav,
 h1{
-    font-family: 'Bad Script',sans-serif;
+    font-family: 'Lobster',sans-serif;
 }
 
 h1{
@@ -103,7 +115,7 @@ h2{
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bad Script', sans-serif;
     color: rgb(58, 187, 226);
 }
 
@@ -123,5 +135,28 @@ footer i{
     margin-left: 1em;
     font-size: 40px;
     margin: 10px;
-    color: white;
+    color: #9575cd;
+}
+
+.modal-trigger{
+    z-index: 300;
+}
+
+.heartwool-footer {
+  width: 100vw;
+  height: 10vh;
+  background: url(/images/brownwool.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-bottom-right-radius: 50%;
+}
+
+button{
+    font-family: 'Bad Script', sans-serif;
 }
